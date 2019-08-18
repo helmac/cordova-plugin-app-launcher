@@ -28,7 +28,7 @@ This plugin allows you to check if an app is installed that can handle a specifi
 ### Automatically (CLI / Plugman)
 
 ```
-$ cordova plugin add https://github.com/nchutchind/cordova-plugin-app-launcher.git
+$ cordova plugin add https://github.com/helmac/cordova-plugin-app-launcher.git
 ```
 and then (this step will modify your project):
 ```
@@ -50,7 +50,7 @@ cordova plugin add cordova-plugin-queries-schemes
 ```xml
 <!-- for Android -->
 <feature name="Launcher">
-	<param name="android-package" value="com.hutchind.cordova.plugins.launcher.Launcher" />
+	<param name="android-package" value="com.helmac.cordova.plugins.launcher.Launcher" />
 </feature>
 ```
 
@@ -63,7 +63,7 @@ cordova plugin add cordova-plugin-queries-schemes
 
 iOS: Copy `Launcher.h` and `Launcher.m` to `platforms/ios/<ProjectName>/Plugins`
 
-Android: Copy `Launcher.java` to `platforms/android/src/com/hutchind/cordova/plugins` (you will probably need to create this path)
+Android: Copy `Launcher.java` to `platforms/android/src/com/helmac/cordova/plugins` (you will probably need to create this path)
 
 ### PhoneGap Build (possibly outdated)
 

@@ -1,4 +1,4 @@
-package com.hutchind.cordova.plugins.launcher;
+package com.helmac.cordova.plugins.launcher;
 
 import android.net.Uri;
 import android.os.Parcelable;

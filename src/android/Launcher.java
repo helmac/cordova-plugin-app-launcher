@@ -1,4 +1,4 @@
-package com.hutchind.cordova.plugins.launcher;
+package com.helmac.cordova.plugins.launcher;
 
 import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CallbackContext;

@@ -2,8 +2,8 @@
 <plugin
 		xmlns="http://apache.org/cordova/ns/plugins/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
-		id="cordova-plugin-app-launcher"
-		version="0.4.0">
+		id="helmac-cordova-plugin-app-launcher"
+		version="0.5.0">
 
 	<name>Launcher</name>
 
@@ -36,10 +36,10 @@
 	<platform name="android">
 			<config-file target="res/xml/config.xml" parent="/*">
 				<feature name="Launcher">
-						<param name="android-package" value="com.hutchind.cordova.plugins.launcher.Launcher" />
+						<param name="android-package" value="com.helmac.cordova.plugins.launcher.Launcher" />
 				</feature>
 			</config-file>
-			<source-file src="src/android/Launcher.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
-			<source-file src="src/android/ParseTypes.java" target-dir="src/com/hutchind/cordova/plugins/launcher" />
+			<source-file src="src/android/Launcher.java" target-dir="src/com/helmac/cordova/plugins/launcher" />
+			<source-file src="src/android/ParseTypes.java" target-dir="src/com/helmac/cordova/plugins/launcher" />
 	</platform>
 </plugin>
